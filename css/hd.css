@@ -1,0 +1,147 @@
+body{
+    /*background-color: #ddf0ff;*/
+    margin:0;
+    padding:0;
+
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    margin: 0 16px 0 42px;
+    color: #1E9FFF
+}
+
+.gallery{
+    margin: 60px 0 0 60px;
+}
+
+@font-face {
+    font-family: 'iconfont';  /* project id 149377 */
+    src: url('//at.alicdn.com/t/font_s1rw4e1h7o6layvi.eot');
+    src: url('//at.alicdn.com/t/font_s1rw4e1h7o6layvi.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_s1rw4e1h7o6layvi.woff') format('woff'),
+    url('//at.alicdn.com/t/font_s1rw4e1h7o6layvi.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_s1rw4e1h7o6layvi.svg#iconfont') format('svg');
+}
+
+.dicon{
+    color: rgba(255,255,255,0.6);
+    margin: 0 0 0 2.5px;
+    font-family: iconfont;
+    font-size: 26px;
+    font-style: normal;
+}
+.dicon:hover{
+    color: rgba(255,255,255,1);
+}
+
+.sicon{
+    color: rgba(255,255,255,0.6);
+    float: left;
+    margin: 2px 0 0 2.5px;
+    font-family: iconfont;
+    font-size: 25px;
+    font-style: normal;
+}
+.sicon:hover{
+    color: rgba(255,255,255,1);
+}
+
+.ricon{
+    color: rgba(255,255,255,0.6);
+    float: left;
+    margin: 3px 0 0 9px;
+    font-family: "微软雅黑 Light";
+    font-size: 18px;
+    font-style: normal;
+}
+.ricon:hover{
+    color: rgba(255,255,255,1);
+}
+
+.layui-nav{
+    background-color: #0C0C0C;
+}
+
+#con{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+}
+
+.photo{
+    transition: all 0.36s ease 0s;
+    float: left;
+    margin: 1px 0 1px 3px;
+    width: 320px;
+    height: 180px;
+}
+
+.photos{
+    width: 320px;
+    height: 180px;
+}
+
+.photo:hover{
+    transform: scale(1.36);
+    transition: all 0.66s ease 0s;
+}
+
+.bar{
+    width:320px;
+    height:30px;
+    margin: -33px 0 0 1px;
+    background: none;
+    position: relative;
+}
+
+.save{
+    margin: 0 0 0 3px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    opacity: 0;
+    background-color: #0C0C0C;
+}
+
+.photo:hover #shide{
+    opacity: 1;
+    background-color: rgba(12,12,12,0.3);
+    transition: all 0.36s ease 0s;
+}
+
+.down{
+    margin: -30px 0 0 286px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    opacity: 0;
+    background-color: #0C0C0C;
+}
+
+.photo:hover #dhide{
+    opacity: 1;
+    background-color: rgba(12,12,12,0.3);
+    transition: all 0.36s ease 0s;
+}
+
+.buy{
+    margin: -28px 0 0 136px;
+    width: 57px;
+    height: 28px;
+    border-radius: 16px;
+    opacity: 0;
+    background-color: #0C0C0C;
+}
+
+.photo:hover #bhide{
+    opacity: 1;
+    background-color: rgba(12,12,12,0.3);
+    transition: all 0.36s ease 0s;
+}
