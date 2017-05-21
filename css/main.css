@@ -163,6 +163,14 @@ a.co:active {color: #ffffff  }
 	display:block;
 }
 
+.j {
+	float: left;
+	font-size: 15px;
+	margin-top: 6px;
+	padding-left: 50px;
+	display:block;
+}
+
 .jz {
 	float: left;
 	font-size: 15px;
