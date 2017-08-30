@@ -28,8 +28,9 @@
 
 @-webkit-keyframes move /*Safari and Chrome*/
 {
-    0% {left:60%;}
-    100% {left: 50%;}
+    0% {left:60%;top:-16%;}
+    50% {left: 30%;top:9%;}
+    100% {left: 60%;top:-16%;}
 }
 
 .z{
