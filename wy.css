@@ -21,9 +21,9 @@
 }
 @keyframes move
  {
-    0% {left:60%;top:-16%;}
-    50% {left: 30%;top:9%;}
-    100% {left: 60%;top:-16%;}
+    0% {left:600px;top:-16%;}
+    50% {left: 188px;top:9%;}
+    100% {left: 600px;top:-16%;}
  }
 
 @-webkit-keyframes move /*Safari and Chrome*/
