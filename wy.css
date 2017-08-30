@@ -1,0 +1,41 @@
+.wy{
+    width: 188px;
+    height: 188px;
+    background-color: #ffea79;
+    margin: 0 auto;
+    margin-top:16%;
+    border-radius: 188px;
+    box-shadow: 0 0 66px #ffffff;
+}
+
+.yy{
+    animation:move 30s infinite;
+    -webkit-animation:move 30s infinite;
+    position:absolute;
+    width: 166px;
+    height: 166px;
+    background-color: #000;
+    border-radius: 166px;
+    top:-16%;
+    left: 60%
+}
+@keyframes move
+ {
+    0% {left:60%;top:-16%;}
+    50% {left: 30%;top:9%;}
+    100% {left: 60%;top:-16%;}
+ }
+
+@-webkit-keyframes move /*Safari and Chrome*/
+{
+    0% {left:60%;}
+    100% {left: 50%;}
+}
+
+.z{
+    width: 199px;
+    margin: 0 auto;
+    font-family: '微软雅黑','Helvetica Neue',sans-serif,SimHei;
+    color: #ffea79;
+    margin-top: 6%;
+}
