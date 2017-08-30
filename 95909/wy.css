@@ -1,4 +1,5 @@
 .wy{
+    position: relative;
     width: 188px;
     height: 188px;
     line-height: 188px;
@@ -15,6 +16,7 @@
     animation:move 30s infinite;
     -webkit-animation:move 30s infinite;
     position:absolute;
+    z-index: 999;
     width: 166px;
     height: 166px;
     background-color: #000;

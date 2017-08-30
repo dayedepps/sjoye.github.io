@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+html {
+    background: #05040f!important
+}
+
+body {
+    margin: 0;
+    padding: 0
+}
+
+li,ul {
+    list-style: none
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1.2,1.2,1.2);
+        transform: scale3d(1.2,1.2,1.2)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05,1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -webkit-transform: scale3d(1.2,1.2,1.2);
+        transform: scale3d(1.2,1.2,1.2)
+    }
+
+    50% {
+        -webkit-transform: scale3d(1.05,1.05,1.05);
+        transform: scale3d(1.05,1.05,1.05)
+    }
+
+    to {
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1)
+    }
+}
+
+@-webkit-keyframes slideInUp {
+    0% {
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes slideInUp {
+    0% {
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+        visibility: visible
+    }
+
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes myfirst {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes myfirst {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0);
+        transform: scale(0)
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes tobig {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(2);
+        transform: scale(2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@-webkit-keyframes tobig {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+
+    50% {
+        -webkit-transform: scale(2);
+        transform: scale(2)
+    }
+
+    to {
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp
+}
+
+.pulse,.slideInUp {
+    opacity: 1!important
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap {
+    font-family: PingFangSC,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,"sans-serif";
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner {
+    overflow: hidden;
+    width: 100%;
+    position: relative
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .mask {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: url(//img.alicdn.com/tfs/TB1WRxyRXXXXXbXaXXXXXXXXXXX-121-105.png) repeat 50%;
+    display: none;
+    z-index: 3
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .mask .close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 43px;
+    right: 5%;
+    overflow: hidden;
+    cursor: pointer;
+    background: url(//img.alicdn.com/tfs/TB1SlFFRXXXXXbtXVXXXXXXXXXX-30-30.png) no-repeat 50%
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .mask .videoshow {
+    position: absolute;
+    left: 50%;
+    margin-left: -480px;
+    width: 960px;
+    height: 540px;
+    top: 17%;
+    background: #fff
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .video {
+    position: absolute;
+    width: 177px;
+    height: 106px;
+    right: 5%;
+    top: 34px;
+    overflow: hidden;
+    z-index: 2;
+    cursor: pointer
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .video .anniu {
+    display: block;
+    width: 177px;
+    height: 106px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .video .anniu:hover {
+    animation: tobig 1s;
+    -webkit-animation: tobig 1s
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab {
+    width: 100%;
+    height: 90px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    z-index: 2
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab {
+    width: 456px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 28px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab .tab-li {
+    width: 152px;
+    height: 54px;
+    float: left;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab .tab-li .golink {
+    display: block;
+    width: 152px;
+    height: 54px;
+    text-decoration: none;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab .tab-li .golink .p1 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab .tab-li .golink .p2 {
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #9999a1;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .toptab .tab .act .golink .p2 {
+    display: block
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner #scene {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    bottom: 0;
+    z-index: 1
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .logo {
+    display: block;
+    width: 147px;
+    height: 52px;
+    position: absolute;
+    left: 6%;
+    top: 1%;
+    z-index: 2
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title {
+    opacity: 1;
+    position: absolute;
+    top: 190px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    z-index: 2
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title .t0 {
+    height: 80px;
+    line-height: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    letter-spacing: 6px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title .text {
+    height: 64px;
+    line-height: 64px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    margin-top: 15px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title .text span {
+    margin: 10px;
+    opacity: 0;
+    filter: blur(20px);
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title .text.active span {
+    opacity: 1;
+    filter: blur(0);
+    transition: 1s
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .title .meeting {
+    height: 70px;
+    line-height: 70px;
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 4px;
+    opacity: 0;
+    margin-top: 15px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area {
+    position: relative;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 190px;
+    width: 88%;
+    z-index: 2
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .bglogo {
+    position: absolute;
+    bottom: 118px;
+    left: 0;
+    display: block;
+    width: 16%
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea {
+    overflow: hidden;
+    height: 300px;
+    margin-bottom: 140px;
+    margin-top: 40px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area {
+    width: 100%;
+    height: 282px;
+    padding-top: 18px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area .t1 {
+    height: 114px;
+    line-height: 114px;
+    text-align: center;
+    font-size: 111px;
+    color: #fff;
+    font-weight: 700;
+    text-indent: 117px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area .t1 .button {
+    text-indent: 0;
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    background: #077aec;
+    margin-left: 26px;
+    text-decoration: none;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area .t2 {
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 74px;
+    color: #fff;
+    font-weight: 700;
+    text-indent: -100px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area .t3 {
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 58px;
+    color: #fff;
+    font-weight: 700;
+    text-indent: -7px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .area .t4 {
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    font-weight: 700
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .active .t1,.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .active .t2,.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .active .t3,.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .showarea .active .t4 {
+    animation: myfirst 3s;
+    -webkit-animation: myfirst 3s
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .wen {
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    height: 56px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .timeline-li {
+    float: left;
+    height: 56px;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .name {
+    width: 3.3%;
+    height: 44px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    padding-top: 12px;
+    cursor: pointer
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .name span {
+    font-size: 12px;
+    color: #ccc
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .name.active {
+    color: #ccc
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .line {
+    width: 10.5%;
+    height: 32px;
+    padding-top: 24px;
+    position: relative
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .line .grayline {
+    width: 100%;
+    height: 1px;
+    background: #363636
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .timeline-area .timeline .line .whiteline {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #ccc
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area {
+    position: relative;
+    z-index: 2;
+    width: 88%;
+    left: 0;
+    padding: 0 6%;
+    padding-top: 24px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .left {
+    width: 74%;
+    height: 146px;
+    float: left;
+    overflow: hidden;
+    padding: 0 1%
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .left .tit {
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    color: #e6e7d9;
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .left .exp {
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .right {
+    width: 24%;
+    height: 146px;
+    float: left;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .right .pic {
+    width: 24%;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin-top: 6px;
+    margin-right: 4%
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .right .info {
+    width: 72%;
+    float: left;
+    overflow: hidden
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .right .info .info-tit {
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #e6e7d9;
+    overflow: hidden;
+    margin-bottom: 6px
+}
+
+.wb-zc-tymod-yunqi-2015mod .module-wrap .inner .bot-area .right .info .info-exp {
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    overflow: hidden
+}
