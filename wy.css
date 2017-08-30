@@ -22,7 +22,7 @@
 @keyframes move
  {
     0% {left:360px;top:0;}
-    50% {left: 99px;top:9%;}
+    50% {left: 99px;top:36px;}
     100% {left: 360px;top:0;}
  }
 
