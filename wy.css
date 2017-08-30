@@ -1,8 +1,11 @@
 .wy{
     width: 188px;
     height: 188px;
+    line-height: 188px;
     background-color: #ffea79;
     margin: 0 auto;
+    color: #ff43ae;
+    text-align: center;
     margin-top:16%;
     border-radius: 188px;
     box-shadow: 0 0 66px #ffffff;
