@@ -16,14 +16,14 @@
     height: 166px;
     background-color: #000;
     border-radius: 166px;
-    top:-6%;
+    top:-16%;
     left: 60%;
 }
 @keyframes move
  {
-    0% {left:60%;top:-6%;}
+    0% {left:60%;top:-16%;}
     50% {left: 30%;top:9%;}
-    100% {left: 60%;top:-6%;}
+    100% {left: 60%;top:-16%;}
  }
 
 @-webkit-keyframes move /*Safari and Chrome*/
