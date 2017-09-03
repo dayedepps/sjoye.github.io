@@ -28,6 +28,28 @@
         border: 1px solid #6ad6ff;
         margin-top: 18px;
     }
+    .ifr{
+        margin: 0 auto;
+        width: 727px;
+        height: 1060px;
+        z-index: 999;
+        position: relative;
+    }
+    @media (min-width: 1360px){
+        .ifr{ height: 790px; }
+    }
+    @media (min-width: 1600px){
+        .ifr{ height: 960px; }
+    }
+    @media (min-width: 1920px){
+        .ifr{ height: 1060px; }
+    }
+    @media (min-width: 2160px){
+        .ifr{ height: 1280px; }
+    }
+    @media (min-width: 2560px){
+        .ifr{ height: 1390px; }
+    }
     </style>
 </head>
 <body>
@@ -42,7 +64,7 @@
 </div>
 
 
-<div style="margin: 0 auto;width: 727px;height: 1390px;z-index: 999;position: relative;">
+<div class="ifr">
 <iframe width="100%" height="100%" src="http://baidu.com" frameborder="no" scrolling="auto"></iframe>
 </div>
 
