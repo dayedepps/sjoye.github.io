@@ -77,7 +77,7 @@ a.color:active {color: #FFF}  /* 被选择的链接 */
     .showtitle{  margin: 60% 0 0 0;  }
 }
 @media (min-width: 780px){
-    .showtitle{  margin: 0 0 0 0;  }
+    .showtitle{  margin: 15% 0 0 0;  }
 }
 @media (min-width: 1920px){
     .showtitle{  margin: 15% 0 0 0;  }
