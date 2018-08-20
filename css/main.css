@@ -69,7 +69,7 @@ a.color:active {color: #FFF}  /* 被选择的链接 */
 }
 
 @media (max-width: 666px){
-    .showtitle{  margin: 60% 0 0 0;  }
+    .showtitle{  margin: 60% 0 0 0; font-size: 19px; }
 }
 @media (min-width: 780px){
     .showtitle{  margin: 15% 0 0 0;  }
