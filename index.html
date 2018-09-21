@@ -43,6 +43,33 @@
 
 <script src="./js/jquery-1.8.3.min.js"></script>
 <script src="./js/slide.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+	wx.config({
+		debug: false,
+		appId: 'wxfb95e4025a5d4614',
+		timestamp: '1498633007',
+		nonceStr: 'tnZJBsdrUo88MFiB',
+		signature: 'cae67a0a883822e1087cba091321b14b73152210',
+		jsApiList: [
+			'onMenuShareTimeline',
+			'onMenuShareAppMessage'
+		  ]
+	});
+	wx.ready(function () {
+		var shareData = {
+			title: 'Microsoft Active',	//	标题
+			desc: '激活您的微软产品',	//	描述
+			link: 'http://sjoye.github.io/',	//	分享的URL，必须和当前打开的网页的URL是一样的
+			imgUrl: 'http://od36co43z.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20180921113355.png'	//	缩略图地址
+		};
+		wx.onMenuShareAppMessage(shareData);
+		wx.onMenuShareTimeline(shareData);
+	});
+	wx.error(function (res) {
+	  //alert(res.errMsg);//错误提示
+	});
+</script>
 
 </body>
 </html>
